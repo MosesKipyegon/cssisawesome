@@ -31,23 +31,43 @@ body {
 
 .container {
   display: grid;
-  grid: repeat(3, 100px) / auto-flow;
+  grid: repeat(3, 280px) / auto-flow;
   justify-content: center;
   max-width: 50%;
   background: white;
   margin: 0 auto;
+  border-radius: .5em .5em 0 0;
+}
+
+.card {
+  padding: 2em;
+}
+
+.card__header {
+  color: var(--p-clr-cyan);
+}
+
+.card__body {
+  color: var(--p-clr-bright-yellow);
+  margin-top: 1.5em;
+}
+
+.card__copy {
+  color: var(--n-clr-grayish-blue);
+  margin-top: 1em;
+  line-height: 1.5em;
 }
 
 .sidebar {
   display: grid;
   grid-template-columns: 341px 341px;
-   
 }
 
 .subscription {
   background: var(--p-clr-cyan);
   padding: 3em;
   color: white;
+  border-radius: 0 0 0 .5em;
 }
 
 .sub__price {
@@ -80,6 +100,7 @@ body {
 .why-us {
   background: var(--n-clr-grayish-blue);
   padding: 3em;
+  border-radius: 0 0 .5em 0;
 }
 
 .section__header {
