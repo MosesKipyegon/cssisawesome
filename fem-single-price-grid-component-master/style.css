@@ -1,0 +1,75 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+  /* Primary colours */
+  --p-clr-cyan: hsl(179, 62%, 43%);
+  --p-clr-bright-yellow: hsl(71, 73%, 54%);
+
+  /* Neutral */
+  --n-clr-light-gray: hsl(204, 43%, 93%);
+  --n-clr-grayish-blue: hsl(218, 22%, 67%);
+
+  /* Body copy */
+  --fs-p: 1em;
+
+  /* font */
+  --ff: 'Karla', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--n-clr-light-gray);
+  font-family: var(--ff);
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid: repeat(3, 100px) / auto-flow;
+  justify-content: center;
+  max-width: 50%;
+  background: white;
+  margin: 0 auto;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 341px 341px;
+   
+}
+
+.subscription {
+  background: var(--p-clr-cyan);
+  padding: 3em;
+  color: var(--n-clr-light-gray);
+}
+
+.sub__price {
+  font-size: 2em;
+  float: left;
+}
+
+.sub__access {
+  float: none;
+}
+
+.why-us {
+  background: var(--n-clr-grayish-blue);
+  padding: 3em;
+}
+
+
+
+
+/* Attribution */
+
+.attribution{
+  position: absolute;
+  bottom: 0;
+}
