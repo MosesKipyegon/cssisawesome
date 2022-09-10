@@ -38,7 +38,7 @@ body {
   margin: 0 auto;
 }
 
-.grid_container {
+.sidebar {
   display: grid;
   grid-template-columns: 341px 341px;
    
@@ -47,21 +47,52 @@ body {
 .subscription {
   background: var(--p-clr-cyan);
   padding: 3em;
-  color: var(--n-clr-light-gray);
+  color: white;
 }
 
 .sub__price {
   font-size: 2em;
-  float: left;
+  margin-top: 0.625em;
+}
+
+.sub__period {
+  color: var(--n-clr-light-gray);
+  font-size: .5em;
+  font-weight: 500;
+  /* float: right; */
 }
 
 .sub__access {
-  float: none;
+  padding-top: 0.3125em;
+  padding-bottom: 2em;
+}
+
+.button {
+  background: var(--p-clr-bright-yellow);
+  padding: 1em 7.2em;
+  border: none;
+  border-radius: .3em;
+  color: white;
+  font-family: var(--ff);
+  font-weight: 700;
 }
 
 .why-us {
   background: var(--n-clr-grayish-blue);
   padding: 3em;
+}
+
+.section__header {
+  color: white;
+}
+
+.section__copy {
+  color: var(--n-clr-light-gray);
+  font-size: var(--fs-p);
+  font-weight: 100;
+  line-height: 1.5em;
+  max-width: 90%;
+  margin-top: 1.5em;
 }
 
 
