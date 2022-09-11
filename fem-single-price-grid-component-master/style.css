@@ -31,16 +31,17 @@ body {
 
 .container {
   display: grid;
-  grid: repeat(3, 280px) / auto-flow;
-  justify-content: center;
+  grid: repeat(3, 230px) / auto-flow;
+  /* justify-content: center; */
   max-width: 50%;
+  height: 230px;
   background: white;
   margin: 0 auto;
   border-radius: .5em .5em 0 0;
 }
 
 .card {
-  padding: 2em;
+  padding: 3em;
 }
 
 .card__header {
@@ -95,6 +96,11 @@ body {
   color: white;
   font-family: var(--ff);
   font-weight: 700;
+}
+
+.button:hover {
+  outline: 2px var(--p-clr-bright-yellow) solid;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
 }
 
 .why-us {
